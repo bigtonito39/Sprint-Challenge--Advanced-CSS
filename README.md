@@ -34,13 +34,25 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the difference between an adaptive website and a fully responsive website?
 
+-Eventhough they both take @media and new design will act based on the screen size you choose, the main difference is that the adaptive will be made of px while the fully responsive website will be a website made with % so that the site could adapt fluently based on the user screensize
+
 2. Describe what it means to be mobile first vs desktop first.
+
+--Mobile First over Desktop first means that web developer will start making the design for mobile users first and then will expand it using @media (min-width:px neded) until getting  to desktop version.
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 
+--it will set it up for us so that each rem will equal 10px, this way we won’t have to be calculating it.
+
 4. How would you describe preprocessing to someone new to CSS?
 
+--I would personally describe it as a way of automating CSS to improve our DRY by being able to save variables & mixins,  I would also describe it as well as a way of pre filtering our CSS into main css and do like a QA on our code as LESS would let you know if there is a sintax mistake.
+
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+--My favorite concept would be mixins as its very similar to a javascript function it’s a very -powerful way of reusing a set of styling that you could re use in case you have several of the same element that you would like to Style the same way.
+-Probably the concept that would give me the most problems would be the syntax utilized to start calling LESS on the GIT terminal. 
+
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
