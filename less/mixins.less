@@ -1,1 +1,30 @@
 // Mixins Here
+.mainheadersetup(@nav-bg){
+        display:flex;
+        width:100%;
+        flex-direction: column;
+        background-color: @nav-bg;
+       
+       
+}
+.buttons(@btn-bg-color;@boldfont){
+    width:30%;
+        padding:2.5% 0%;
+        border: 1px solid @btn-bg-color;
+        font-size:1.5rem;
+        background-color:@btn-bg-color;
+        color:white;
+        text-align:center;
+        font-weight:@boldfont;
+        border-radius:5px;
+}
+.hovereffects (@hovercolorback;@hoverfont){
+    background-color:@hovercolorback;
+    color:@hoverfont;
+}
+.navigationA(@navcolor){
+    font-size:2rem;
+    margin-right: 2.5%;
+    text-decoration: none;
+    color:@navcolor;
+}

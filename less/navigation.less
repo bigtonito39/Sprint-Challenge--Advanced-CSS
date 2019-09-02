@@ -1,1 +1,39 @@
 // Navigation code here
+.intro {
+    .navh1{
+        .mainheadersetup(@nav-bg);
+        }
+  h1{
+      
+      Font-size:4rem;
+      margin-bottom:2.5%;
+      margin-top: 1.5%;
+      text-align:center;
+      @media @phone{
+          font-size:3rem;
+      }
+    
+}
+
+nav{
+    display:flex;
+    justify-content: center;
+    margin-bottom:1.5%;
+    
+}
+nav a{
+    .navigationA(@navcolor);
+    @media @phone {
+        font-size:1.5rem;
+    }
+}
+nav a:hover{
+    .hovereffects(@hovercolorback;@hoverfont);
+}
+
+.Mainimage1{
+    width:100%;
+    border-radius:5px;
+}
+
+}
