@@ -1,3 +1,86 @@
+.buttonsA {
+  color: white;
+  text-decoration: none;
+}
+.form input[type=text],
+.form select,
+.form textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+.form input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.form input[type=submit]:hover {
+  background-color: #45a049;
+}
+.formsignup input[type=text],
+.formsignup input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+.formsignup input[type=text]:focus,
+.formsignup input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+.formsignup hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+.formsignup h1 {
+  text-align: center;
+  font-size: 2rem;
+  color: Blue;
+}
+.formsignup p {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bolder;
+  color: black;
+}
+.formsignup button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+.formsignup button:hover {
+  opacity: 1;
+}
+.formsignup .cancelbtn {
+  padding: 14px 20px;
+  background-color: #f44336;
+}
+.formsignup .cancelbtn,
+.formsignup .signupbtn {
+  float: left;
+  width: 50%;
+}
+.formsignup .clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -163,13 +246,13 @@ p {
 }
 .navh1 {
   display: flex;
-  width: 100%;
+  width: 99%;
   flex-direction: column;
   background-color: #F6F6F6;
 }
 .navh1 h1 {
   Font-size: 4rem;
-  margin-bottom: 2.5%;
+  margin-bottom: 1.5%;
   margin-top: 1.5%;
   text-align: center;
 }
@@ -197,7 +280,7 @@ p {
   }
 }
 .navh1 nav a {
-  font-size: 2rem;
+  font-size: 1.8rem;
   margin-right: 2.5%;
   text-decoration: none;
   color: Black;
@@ -309,15 +392,14 @@ footer {
   margin-bottom: 5%;
 }
 .home .walk .walk-text .btn {
-  width: 30%;
-  padding: 2.5% 0%;
+  width: 40%;
+  padding: 3% 0%;
   border: 1px solid #22283A;
-  font-size: 1.5rem;
   background-color: #22283A;
-  color: white;
   text-align: center;
   font-weight: Bolder;
   border-radius: 5px;
+  font-size: 2rem;
 }
 @media (max-width: 500px) {
   .home .walk .walk-text .btn {
@@ -325,6 +407,10 @@ footer {
     padding: 5% 0%;
     margin-bottom: 4%;
   }
+}
+.home .walk .walk-text .btn a {
+  color: white;
+  text-decoration: none;
 }
 .home .walk .walk-img {
   width: 46%;
@@ -341,4 +427,91 @@ footer {
   width: 100%;
   height: auto;
   border-radius: 10px;
+}
+.Form {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+.Form input[type=text],
+.Form select,
+.Form textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+.Form input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.Form input[type=submit]:hover {
+  background-color: #45a049;
+}
+.SignupForm {
+  padding: 5%;
+}
+.SignupForm input[type=text],
+.SignupForm input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+.SignupForm input[type=text]:focus,
+.SignupForm input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+.SignupForm hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+.SignupForm h1 {
+  text-align: center;
+  font-size: 2rem;
+  color: Blue;
+}
+.SignupForm p {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bolder;
+  color: black;
+}
+.SignupForm button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+.SignupForm button:hover {
+  opacity: 1;
+}
+.SignupForm .cancelbtn {
+  padding: 14px 20px;
+  background-color: #f44336;
+}
+.SignupForm .cancelbtn,
+.SignupForm .signupbtn {
+  float: left;
+  width: 50%;
+}
+.SignupForm .clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
 }
