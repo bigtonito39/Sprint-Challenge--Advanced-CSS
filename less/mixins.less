@@ -1,1 +1,134 @@
 // Mixins Here
+.mainheadersetup(@nav-bg){
+        display:flex;
+        width:99%;
+        flex-direction: column;
+        background-color: @nav-bg;
+       
+       
+}
+.buttons(@btn-bg-color;@boldfont){
+    width:40%;
+        padding:3% 0%;
+        border: 1px solid @btn-bg-color;
+        background-color:@btn-bg-color;
+        text-align:center;
+        font-weight:@boldfont;
+        border-radius:5px;
+        font-size:2rem;
+}
+.buttonsA{
+    color:white;
+    text-decoration: none;
+    
+
+    
+}
+.hovereffects (@hovercolorback;@hoverfont){
+    background-color:@hovercolorback;
+    color:@hoverfont;
+    border-radius: 100%;
+    padding:0.5%;
+}
+.navigationA(@navcolor){
+    font-size:1.8rem;
+    margin-right: 2.5%;
+    text-decoration: none;
+    color:@navcolor;
+  
+}
+.form{
+     
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical 
+  }
+  
+  
+  input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+}
+.formsignup{
+    input[type=text], input[type=password] {
+        width: 100%;
+        padding: 15px;
+        margin: 5px 0 22px 0;
+        display: inline-block;
+        border: none;
+        background: #f1f1f1;
+      }
+      
+      input[type=text]:focus, input[type=password]:focus {
+        background-color: #ddd;
+        outline: none;
+      }
+      
+      hr {
+        border: 1px solid #f1f1f1;
+        margin-bottom: 25px;
+      }
+      h1{
+          text-align:center;
+          font-size:2rem;
+          color:Blue;
+      }
+      p{
+        text-align:center;
+        font-size:2rem;
+        font-weight:bolder;
+        color:black;
+      }
+      
+      button {
+        background-color: #4CAF50;
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        cursor: pointer;
+        width: 100%;
+        opacity: 0.9;
+      }
+      
+      button:hover {
+        opacity:1;
+      }
+      
+      
+      .cancelbtn {
+        padding: 14px 20px;
+        background-color: #f44336;
+      }
+      
+      
+      .cancelbtn, .signupbtn {
+        float: left;
+        width: 50%;
+      }
+      
+            
+  
+      .clearfix::after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+}
